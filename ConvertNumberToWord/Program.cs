@@ -7,21 +7,7 @@ class Program
         int number;
         bool isValid;
         bool isUK = true;
-        Console.WriteLine("\nEnter '0' to quit the program at any time\n");
-        //while (true)
-        //{
-        //    Console.Write("\nUse UK numbering y/n : ");
-        //    input = Console.ReadLine();
-        //    if (!(input.ToLower() == "y" || input.ToLower() == "n"))
-        //        Console.WriteLine("\n  Must be 'y' or 'n', please try again\n");
-        //    else
-        //    {
-        //        if (input.ToLower() == "y")
-        //            isUK = true;
-        //        Console.WriteLine("\n");
-        //        break;
-        //    /}
-        //}
+        Console.WriteLine("\nEnter '0' to quit the program at any time\n");        
         do
         {
             Console.Write("Enter integer : ");
